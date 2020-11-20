@@ -16,3 +16,11 @@ def output_array(array)
     puts i
   end
 end
+
+def return_string_array(array)
+  new_array = []
+  for index in array
+    array.push(index.to_s)
+  end
+  new_array
+end
