@@ -20,7 +20,7 @@ end
 def return_string_array(array)
   new_array = []
   for index in array
-    array.push(index.to_s)
+    new_array.push(index.to_s)
   end
-  new_array
+  return new_array
 end
